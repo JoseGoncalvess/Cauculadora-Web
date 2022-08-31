@@ -12,8 +12,6 @@
 }
 body, html{
   background-image: linear-gradient(to right, var(--azul), rgb(2, 60, 91));
-  width: 100vw;
-  height: 100vh;
 
 }
 
@@ -22,6 +20,8 @@ body, html{
   justify-content: center;
   align-content: center;
   min-height: 100vh;
+  max-width: 300px;
+  margin: auto;
   grid-template-columns: repeat(4,100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   
