@@ -1,0 +1,7 @@
+var number = document.querySelectorAll(['data-number'])
+var operator = document.querySelectorAll(['data-operator'])
+var igual = document.querySelector(['data-igual'])
+var allClean = document.querySelector(['data-all-clear'])
+var delet = document.querySelector(['data-delet'])
+var previuosoperand = document.querySelector(['data-previuos-operand'])
+var previuoscurrent = document.querySelector(['data-previoues-current'])
