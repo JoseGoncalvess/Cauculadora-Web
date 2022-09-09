@@ -20,7 +20,7 @@ body, html{
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-  max-width: 300px;
+  width: 200px;
   margin: auto;
   grid-template-columns: repeat(4,100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
